@@ -1,0 +1,61 @@
+# FastAPI Tutorial - Common Dependencies
+# Установка: pip install -r requirements.txt
+
+# ============================================
+# Core FastAPI & Web Server
+# ============================================
+fastapi==0.122.0
+uvicorn==0.38.0
+starlette==0.50.0
+
+# ASGI server performance
+uvloop==0.22.1
+httptools==0.7.1
+websockets==15.0.1
+h11==0.16.0
+
+# ============================================
+# Pydantic & Validation
+# ============================================
+pydantic==2.12.5
+pydantic-core==2.41.5
+pydantic-settings==2.12.0
+email-validator==2.3.0
+
+# Pydantic dependencies
+annotated-types==0.7.0
+annotated-doc==0.0.4
+typing-extensions==4.15.0
+typing-inspection==0.4.2
+
+# ============================================
+# Database (Async SQLAlchemy 2.0)
+# ============================================
+sqlalchemy==2.0.44
+aiosqlite==0.21.0
+greenlet==3.2.4
+
+# ============================================
+# Utilities & Helpers
+# ============================================
+python-dotenv==1.2.1
+pyyaml==6.0.3
+click==8.3.1
+
+# File watching for development
+watchfiles==1.1.1
+
+# ============================================
+# Network & DNS
+# ============================================
+anyio==4.11.0
+sniffio==1.3.1
+dnspython==2.8.0
+idna==3.11
+
+# ============================================
+# Testing (Optional)
+# ============================================
+# pytest==8.0.0
+# pytest-asyncio==0.23.0
+# httpx==0.27.0

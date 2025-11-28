@@ -1,0 +1,40 @@
+# Example 05: Full DDD Architecture
+# Установка: pip install -r requirements.txt
+
+# Core FastAPI
+fastapi==0.122.0
+uvicorn==0.38.0
+starlette==0.50.0
+
+# Pydantic (full suite)
+pydantic==2.12.5
+pydantic-core==2.41.5
+pydantic-settings==2.12.0
+email-validator==2.3.0
+
+# Async SQLAlchemy 2.0
+sqlalchemy==2.0.44
+aiosqlite==0.21.0
+greenlet==3.2.4
+
+# Configuration & utilities
+python-dotenv==1.2.1
+pyyaml==6.0.3
+click==8.3.1
+
+# Dependencies
+anyio==4.11.0
+sniffio==1.3.1
+dnspython==2.8.0
+idna==3.11
+annotated-types==0.7.0
+annotated-doc==0.0.4
+typing-extensions==4.15.0
+typing-inspection==0.4.2
+
+# Performance
+uvloop==0.22.1
+httptools==0.7.1
+h11==0.16.0
+watchfiles==1.1.1
+websockets==15.0.1
